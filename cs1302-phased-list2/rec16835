@@ -1,0 +1,49 @@
+cs1302-phased-list2:
+total 588
+drwxr-xr-x. 3 myid     52 Mar 28 21:12 bin
+-rwxr-xr-x. 1 myid    302 Mar 24 17:15 compile.sh
+drwxr-xr-x. 2 myid     25 Mar 28 21:09 driver
+-rw-r--r--. 1 myid   7609 Mar 20 23:08 phase2.jar
+-rw-r--r--. 1 myid 560908 Mar 20 23:08 phase2.png
+-rw-r--r--. 1 myid  27983 Mar 24 12:45 README.md
+-rw-r--r--. 1 myid      0 Mar 28 21:13 rec16835
+drwxr-xr-x. 2 myid     44 Mar 28 20:38 reports
+drwxr-xr-x. 3 myid     28 Mar  4 20:52 src
+
+cs1302-phased-list2/bin:
+total 4
+drwxr-xr-x. 3 myid   24 Mar 28 21:12 cs1302
+-rw-r--r--. 1 myid 2545 Mar 28 21:12 Driver.class
+
+cs1302-phased-list2/bin/cs1302:
+total 0
+drwxr-xr-x. 2 myid 109 Mar 28 21:12 p2
+
+cs1302-phased-list2/bin/cs1302/p2:
+total 12
+-rw-r--r--. 1 myid 2284 Mar 28 21:12 ArrayStringList.class
+-rw-r--r--. 1 myid 3206 Mar 28 21:12 BaseStringList.class
+-rw-r--r--. 1 myid 2458 Mar 28 21:12 LinkedStringList.class
+
+cs1302-phased-list2/driver:
+total 4
+-rw-r--r--. 1 myid 2879 Mar 28 21:09 Driver.java
+
+cs1302-phased-list2/reports:
+total 60
+-rw-r--r--. 1 myid 59272 Mar 28 21:12 TEST-junit-jupiter.xml
+
+cs1302-phased-list2/src:
+total 0
+drwxr-xr-x. 3 myid 24 Mar  4 20:17 cs1302
+
+cs1302-phased-list2/src/cs1302:
+total 0
+drwxr-xr-x. 2 myid 106 Mar 28 21:05 p2
+
+cs1302-phased-list2/src/cs1302/p2:
+total 24
+-rw-r--r--. 1 myid 7209 Mar 28 21:01 ArrayStringList.java
+-rw-r--r--. 1 myid 7390 Mar 28 20:30 BaseStringList.java
+-rw-r--r--. 1 myid 6664 Mar 28 21:05 LinkedStringList.java
+/home/myid/rad47988/cs1302-phased-list2:/home/myid/csci-1302

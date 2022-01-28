@@ -1,0 +1,79 @@
+cs1302-gallery:
+total 60
+-rwxr-xr-x. 1 myid   127 Apr 19 18:26 compile.sh
+-rw-r--r--. 1 myid  3006 Apr  9 12:05 pom.xml
+-rw-r--r--. 1 myid 50947 Apr 19 22:18 README.md
+-rw-r--r--. 1 myid     0 Apr 20 23:58 rec26230
+drwxr-xr-x. 3 myid    26 Apr  9 12:05 src
+drwxr-xr-x. 5 myid    82 Apr 20 23:54 target
+
+cs1302-gallery/src:
+total 0
+drwxr-xr-x. 3 myid 26 Apr  9 12:05 main
+
+cs1302-gallery/src/main:
+total 0
+drwxr-xr-x. 3 myid 28 Apr  9 12:05 java
+
+cs1302-gallery/src/main/java:
+total 0
+drwxr-xr-x. 3 myid 29 Apr  9 12:05 cs1302
+
+cs1302-gallery/src/main/java/cs1302:
+total 0
+drwxr-xr-x. 2 myid 148 Apr 20 23:56 gallery
+
+cs1302-gallery/src/main/java/cs1302/gallery:
+total 28
+-rw-r--r--. 1 myid 1512 Apr 20 23:23 GalleryApp.java
+-rw-r--r--. 1 myid  790 Apr  9 12:05 GalleryDriver.java
+-rw-r--r--. 1 myid 5199 Apr 20 23:56 MainContent.java
+-rw-r--r--. 1 myid 3186 Apr 19 21:50 MainMenu.java
+-rw-r--r--. 1 myid 4590 Apr 20 23:23 MainToolBar.java
+
+cs1302-gallery/target:
+total 0
+drwxr-xr-x. 3 myid 28 Apr 20 23:54 classes
+drwxr-xr-x. 3 myid 33 Apr 20 23:54 generated-sources
+drwxr-xr-x. 3 myid 43 Apr 20 23:54 maven-status
+
+cs1302-gallery/target/classes:
+total 0
+drwxr-xr-x. 3 myid 21 Apr 20 23:54 cs1302
+
+cs1302-gallery/target/classes/cs1302:
+total 0
+drwxr-xr-x. 2 myid 153 Apr 20 23:54 gallery
+
+cs1302-gallery/target/classes/cs1302/gallery:
+total 32
+-rw-r--r--. 1 myid 2047 Apr 20 23:54 GalleryApp.class
+-rw-r--r--. 1 myid 1123 Apr 20 23:54 GalleryDriver.class
+-rw-r--r--. 1 myid 5555 Apr 20 23:54 MainContent.class
+-rw-r--r--. 1 myid 4260 Apr 20 23:54 MainMenu.class
+-rw-r--r--. 1 myid 6002 Apr 20 23:54 MainToolBar.class
+
+cs1302-gallery/target/generated-sources:
+total 0
+drwxr-xr-x. 2 myid 6 Apr 20 23:54 annotations
+
+cs1302-gallery/target/generated-sources/annotations:
+total 0
+
+cs1302-gallery/target/maven-status:
+total 0
+drwxr-xr-x. 3 myid 29 Apr 20 23:54 maven-compiler-plugin
+
+cs1302-gallery/target/maven-status/maven-compiler-plugin:
+total 0
+drwxr-xr-x. 3 myid 37 Apr 20 23:54 compile
+
+cs1302-gallery/target/maven-status/maven-compiler-plugin/compile:
+total 0
+drwxr-xr-x. 2 myid 64 Apr 20 23:54 default-compile
+
+cs1302-gallery/target/maven-status/maven-compiler-plugin/compile/default-compile:
+total 8
+-rw-r--r--. 1 myid 163 Apr 20 23:54 createdFiles.lst
+-rw-r--r--. 1 myid 403 Apr 20 23:54 inputFiles.lst
+/home/myid/rad47988/cs1302-gallery:/home/myid/csci-1302

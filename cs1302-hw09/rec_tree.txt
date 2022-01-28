@@ -1,0 +1,10 @@
+                                printAllboards("XOXOXO---")
+                          /               |                  \
+                         /                |                   \
+  printAllBoards("XOXOXOX--")    printAllBoards("XOXOXO-X-")   printAllBoards("XOXOXO--X")
+                                /                          \
+                               /                            \
+              printAllBoards("XOXOXOOX-")        printAllBoards("XOXOXO-XO")
+                         |                                   |
+                         |                                   |
+              printAllBoards("XOXOXOOXX")        printAllBoards("XOXOXOXXO")

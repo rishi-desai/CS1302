@@ -1,0 +1,1075 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="JUnit Jupiter" tests="169" skipped="0" failures="0" errors="0" time="0.954" hostname="csci-odin.cs.uga.edu" timestamp="2021-03-30T12:49:51">
+<properties>
+<property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
+<property name="file.encoding" value="UTF-8"/>
+<property name="file.separator" value="/"/>
+<property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
+<property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/>
+<property name="java.class.path" value="/usr/local/mepcott/junit/junit.jar"/>
+<property name="java.class.version" value="55.0"/>
+<property name="java.home" value="/usr/local/mepcott/jdk/jdk-11.0.10"/>
+<property name="java.io.tmpdir" value="/tmp"/>
+<property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+<property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+<property name="java.runtime.version" value="11.0.10+8-LTS-162"/>
+<property name="java.specification.name" value="Java Platform API Specification"/>
+<property name="java.specification.vendor" value="Oracle Corporation"/>
+<property name="java.specification.version" value="11"/>
+<property name="java.vendor" value="Oracle Corporation"/>
+<property name="java.vendor.url" value="https://openjdk.java.net/"/>
+<property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+<property name="java.vendor.version" value="18.9"/>
+<property name="java.version" value="11.0.10"/>
+<property name="java.version.date" value="2021-01-19"/>
+<property name="java.vm.compressedOopsMode" value="Zero based"/>
+<property name="java.vm.info" value="mixed mode"/>
+<property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+<property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+<property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+<property name="java.vm.specification.version" value="11"/>
+<property name="java.vm.vendor" value="Oracle Corporation"/>
+<property name="java.vm.version" value="11.0.10+8-LTS-162"/>
+<property name="jdk.debug" value="release"/>
+<property name="line.separator" value="
+"/>
+<property name="os.arch" value="amd64"/>
+<property name="os.name" value="Linux"/>
+<property name="os.version" value="3.10.0-1160.el7.x86_64"/>
+<property name="path.separator" value=":"/>
+<property name="sun.arch.data.model" value="64"/>
+<property name="sun.boot.library.path" value="/usr/local/mepcott/jdk/jdk-11.0.10/lib"/>
+<property name="sun.cpu.endian" value="little"/>
+<property name="sun.cpu.isalist" value=""/>
+<property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+<property name="sun.java.command" value="/usr/local/mepcott/junit/junit.jar -cp bin:phase2.jar:/usr/local/mepcott/cs1302/phased/tests1.jar --disable-banner --details=tree --reports-dir=reports -E junit-vintage -c cs1302.adt.LinkedStringListTests"/>
+<property name="sun.java.launcher" value="SUN_STANDARD"/>
+<property name="sun.jnu.encoding" value="UTF-8"/>
+<property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+<property name="sun.os.patch.level" value="unknown"/>
+<property name="user.country" value="US"/>
+<property name="user.dir" value="/home/myid/rad47988/cs1302-phased-list2"/>
+<property name="user.home" value="/home/myid/rad47988"/>
+<property name="user.language" value="en"/>
+<property name="user.name" value="rad47988"/>
+<property name="user.timezone" value="America/New_York"/>
+</properties>
+<testcase name="defaultConstructor()" classname="cs1302.adt.LinkedStringListTests" time="0.033">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[method:defaultConstructor()]
+display-name: new LinkedStringList()
+]]></system-out>
+</testcase>
+<testcase name="repeatedAdd1()" classname="cs1302.adt.StringListTests$CommunityTests" time="0.015">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:CommunityTests]/[method:repeatedAdd1()]
+display-name: add(1, "3"), add(1, "2"), add(1, "1") on initial list [a, b, c]
+]]></system-out>
+</testcase>
+<testcase name="size1()" classname="cs1302.adt.StringListTests$BigListTests" time="0.092">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:BigListTests]/[method:size1()]
+display-name: size()
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[1]" classname="cs1302.adt.StringListTests$BigListTests" time="0.099">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:BigListTests]/[test-template:get1(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[2]" classname="cs1302.adt.StringListTests$BigListTests" time="0.083">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:BigListTests]/[test-template:get1(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[3]" classname="cs1302.adt.StringListTests$BigListTests" time="0.079">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:BigListTests]/[test-template:get1(int)]/[test-template-invocation:#3]
+display-name: [3] 5000
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[4]" classname="cs1302.adt.StringListTests$BigListTests" time="0.08">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:BigListTests]/[test-template:get1(int)]/[test-template-invocation:#4]
+display-name: [4] 9998
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[5]" classname="cs1302.adt.StringListTests$BigListTests" time="0.081">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:BigListTests]/[test-template:get1(int)]/[test-template-invocation:#5]
+display-name: [5] 9999
+]]></system-out>
+</testcase>
+<testcase name="testSliceNegativeStart(int)[1]" classname="cs1302.adt.StringListTests$SliceTests" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceNegativeStart(int)]/[test-template-invocation:#1]
+display-name: [1] -2
+]]></system-out>
+</testcase>
+<testcase name="testSliceNegativeStart(int)[2]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceNegativeStart(int)]/[test-template-invocation:#2]
+display-name: [2] -1
+]]></system-out>
+</testcase>
+<testcase name="testSliceBigStop(int)[1]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceBigStop(int)]/[test-template-invocation:#1]
+display-name: [1] 5
+]]></system-out>
+</testcase>
+<testcase name="testSliceBigStop(int)[2]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceBigStop(int)]/[test-template-invocation:#2]
+display-name: [2] 100
+]]></system-out>
+</testcase>
+<testcase name="testSliceBigStart(int, int)[1]" classname="cs1302.adt.StringListTests$SliceTests" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceBigStart(int, int)]/[test-template-invocation:#1]
+display-name: [1] 3, 2
+]]></system-out>
+</testcase>
+<testcase name="testSliceBigStart(int, int)[2]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceBigStart(int, int)]/[test-template-invocation:#2]
+display-name: [2] 2, 1
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int)[1]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int)]/[test-template-invocation:#1]
+display-name: [1] 0, 0
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int)[2]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int)]/[test-template-invocation:#2]
+display-name: [2] 0, 4
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int)[3]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int)]/[test-template-invocation:#3]
+display-name: [3] 1, 3
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int)[4]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int)]/[test-template-invocation:#4]
+display-name: [4] 1, 4
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int)[5]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int)]/[test-template-invocation:#5]
+display-name: [5] 2, 2
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int)[6]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int)]/[test-template-invocation:#6]
+display-name: [6] 2, 3
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int)[7]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int)]/[test-template-invocation:#7]
+display-name: [7] 3, 4
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int, int)[1]" classname="cs1302.adt.StringListTests$SliceTests" time="0.002">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int, int)]/[test-template-invocation:#1]
+display-name: [1] 0, 4, 0
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int, int)[2]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int, int)]/[test-template-invocation:#2]
+display-name: [2] 0, 4, 1
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int, int)[3]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int, int)]/[test-template-invocation:#3]
+display-name: [3] 0, 4, 2
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int, int)[4]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int, int)]/[test-template-invocation:#4]
+display-name: [4] 0, 4, 3
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int, int)[5]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int, int)]/[test-template-invocation:#5]
+display-name: [5] 1, 3, 0
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int, int)[6]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int, int)]/[test-template-invocation:#6]
+display-name: [6] 1, 3, 1
+]]></system-out>
+</testcase>
+<testcase name="testSliceGet1(int, int, int)[7]" classname="cs1302.adt.StringListTests$SliceTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:SliceTests]/[test-template:testSliceGet1(int, int, int)]/[test-template-invocation:#7]
+display-name: [7] 3, 4, 0
+]]></system-out>
+</testcase>
+<testcase name="size1()" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[method:size1()]
+display-name: size()
+]]></system-out>
+</testcase>
+<testcase name="isEmpty1()" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[method:isEmpty1()]
+display-name: isEmpty()
+]]></system-out>
+</testcase>
+<testcase name="toString1()" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.013">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[method:toString1()]
+display-name: toString()
+]]></system-out>
+</testcase>
+<testcase name="makeString1()" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[method:makeString1()]
+display-name: makeString("#", "@", "%")
+]]></system-out>
+</testcase>
+<testcase name="prepend1()" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[method:prepend1()]
+display-name: prepend("hello world")
+]]></system-out>
+</testcase>
+<testcase name="prepend2()" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[method:prepend2()]
+display-name: prepend(null) throws NullPointerException
+]]></system-out>
+</testcase>
+<testcase name="prepend3()" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[method:prepend3()]
+display-name: prepend("") throws IllegalArgumentException
+]]></system-out>
+</testcase>
+<testcase name="append1()" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[method:append1()]
+display-name: append("hello world")
+]]></system-out>
+</testcase>
+<testcase name="append2()" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[method:append2()]
+display-name: append(null) throws NullPointerException
+]]></system-out>
+</testcase>
+<testcase name="append3()" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[method:append3()]
+display-name: append("") throws IllegalArgumentException
+]]></system-out>
+</testcase>
+<testcase name="clear1()" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[method:clear1()]
+display-name: clear()
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[1]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:get1(int)]/[test-template-invocation:#1]
+display-name: [1] -1
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[2]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:get1(int)]/[test-template-invocation:#2]
+display-name: [2] 4
+]]></system-out>
+</testcase>
+<testcase name="get2(int)[1]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:get2(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="get2(int)[2]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:get2(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="get2(int)[3]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:get2(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="get2(int)[4]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:get2(int)]/[test-template-invocation:#4]
+display-name: [4] 3
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[1]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add1(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[2]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add1(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[3]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add1(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[4]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add1(int)]/[test-template-invocation:#4]
+display-name: [4] 3
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[5]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add1(int)]/[test-template-invocation:#5]
+display-name: [5] 4
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[1]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add2(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[2]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add2(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[3]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add2(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[4]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add2(int)]/[test-template-invocation:#4]
+display-name: [4] 3
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[5]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add2(int)]/[test-template-invocation:#5]
+display-name: [5] 4
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[1]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add3(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[2]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add3(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[3]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add3(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[4]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add3(int)]/[test-template-invocation:#4]
+display-name: [4] 3
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[5]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add3(int)]/[test-template-invocation:#5]
+display-name: [5] 4
+]]></system-out>
+</testcase>
+<testcase name="remove1(int)[1]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:remove1(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="remove1(int)[2]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:remove1(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="remove1(int)[3]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:remove1(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="remove1(int)[4]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:remove1(int)]/[test-template-invocation:#4]
+display-name: [4] 3
+]]></system-out>
+</testcase>
+<testcase name="remove2(int)[1]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:remove2(int)]/[test-template-invocation:#1]
+display-name: [1] 4
+]]></system-out>
+</testcase>
+<testcase name="add4(int)[1]" classname="cs1302.adt.StringListTests$FourItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:FourItemListTests]/[test-template:add4(int)]/[test-template-invocation:#1]
+display-name: [1] 5
+]]></system-out>
+</testcase>
+<testcase name="size1()" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[method:size1()]
+display-name: size()
+]]></system-out>
+</testcase>
+<testcase name="isEmpty1()" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[method:isEmpty1()]
+display-name: isEmpty()
+]]></system-out>
+</testcase>
+<testcase name="toString1()" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[method:toString1()]
+display-name: toString()
+]]></system-out>
+</testcase>
+<testcase name="makeString1()" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[method:makeString1()]
+display-name: makeString("#", "@", "%")
+]]></system-out>
+</testcase>
+<testcase name="prepend1()" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[method:prepend1()]
+display-name: prepend("hello world")
+]]></system-out>
+</testcase>
+<testcase name="prepend2()" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[method:prepend2()]
+display-name: prepend(null) throws NullPointerException
+]]></system-out>
+</testcase>
+<testcase name="prepend3()" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[method:prepend3()]
+display-name: prepend("") throws IllegalArgumentException
+]]></system-out>
+</testcase>
+<testcase name="append1()" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[method:append1()]
+display-name: append("hello world")
+]]></system-out>
+</testcase>
+<testcase name="append2()" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[method:append2()]
+display-name: append(null) throws NullPointerException
+]]></system-out>
+</testcase>
+<testcase name="append3()" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[method:append3()]
+display-name: append("") throws IllegalArgumentException
+]]></system-out>
+</testcase>
+<testcase name="clear1()" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[method:clear1()]
+display-name: clear()
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[1]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:get1(int)]/[test-template-invocation:#1]
+display-name: [1] -1
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[2]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:get1(int)]/[test-template-invocation:#2]
+display-name: [2] 3
+]]></system-out>
+</testcase>
+<testcase name="get2(int)[1]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:get2(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="get2(int)[2]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:get2(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="get2(int)[3]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:get2(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[1]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add1(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[2]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add1(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[3]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add1(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[4]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add1(int)]/[test-template-invocation:#4]
+display-name: [4] 3
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[1]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add2(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[2]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add2(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[3]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add2(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[4]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add2(int)]/[test-template-invocation:#4]
+display-name: [4] 3
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[1]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add3(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[2]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add3(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[3]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add3(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[4]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add3(int)]/[test-template-invocation:#4]
+display-name: [4] 3
+]]></system-out>
+</testcase>
+<testcase name="remove1(int)[1]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:remove1(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="remove1(int)[2]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:remove1(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="remove1(int)[3]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:remove1(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="remove2(int)[1]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:remove2(int)]/[test-template-invocation:#1]
+display-name: [1] 3
+]]></system-out>
+</testcase>
+<testcase name="add4(int)[1]" classname="cs1302.adt.StringListTests$ThreeItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:ThreeItemListTests]/[test-template:add4(int)]/[test-template-invocation:#1]
+display-name: [1] 4
+]]></system-out>
+</testcase>
+<testcase name="size1()" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[method:size1()]
+display-name: size()
+]]></system-out>
+</testcase>
+<testcase name="isEmpty1()" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[method:isEmpty1()]
+display-name: isEmpty()
+]]></system-out>
+</testcase>
+<testcase name="toString1()" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[method:toString1()]
+display-name: toString()
+]]></system-out>
+</testcase>
+<testcase name="makeString1()" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[method:makeString1()]
+display-name: makeString("#", "@", "%")
+]]></system-out>
+</testcase>
+<testcase name="prepend1()" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[method:prepend1()]
+display-name: prepend("hello world")
+]]></system-out>
+</testcase>
+<testcase name="prepend2()" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[method:prepend2()]
+display-name: prepend(null) throws NullPointerException
+]]></system-out>
+</testcase>
+<testcase name="prepend3()" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[method:prepend3()]
+display-name: prepend("") throws IllegalArgumentException
+]]></system-out>
+</testcase>
+<testcase name="append1()" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[method:append1()]
+display-name: append("hello world")
+]]></system-out>
+</testcase>
+<testcase name="append2()" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[method:append2()]
+display-name: append(null) throws NullPointerException
+]]></system-out>
+</testcase>
+<testcase name="append3()" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[method:append3()]
+display-name: append("") throws IllegalArgumentException
+]]></system-out>
+</testcase>
+<testcase name="clear1()" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[method:clear1()]
+display-name: clear()
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[1]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:get1(int)]/[test-template-invocation:#1]
+display-name: [1] -1
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[2]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:get1(int)]/[test-template-invocation:#2]
+display-name: [2] 2
+]]></system-out>
+</testcase>
+<testcase name="get2(int)[1]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:get2(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="get2(int)[2]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:get2(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[1]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:add1(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[2]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:add1(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[3]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:add1(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[1]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:add2(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[2]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:add2(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[3]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:add2(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[1]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:add3(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[2]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:add3(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[3]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:add3(int)]/[test-template-invocation:#3]
+display-name: [3] 2
+]]></system-out>
+</testcase>
+<testcase name="remove1(int)[1]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:remove1(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="remove1(int)[2]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:remove1(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="remove2(int)[1]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:remove2(int)]/[test-template-invocation:#1]
+display-name: [1] 2
+]]></system-out>
+</testcase>
+<testcase name="add4(int)[1]" classname="cs1302.adt.StringListTests$TwoItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:TwoItemListTests]/[test-template:add4(int)]/[test-template-invocation:#1]
+display-name: [1] 3
+]]></system-out>
+</testcase>
+<testcase name="size1()" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[method:size1()]
+display-name: size()
+]]></system-out>
+</testcase>
+<testcase name="isEmpty1()" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[method:isEmpty1()]
+display-name: isEmpty()
+]]></system-out>
+</testcase>
+<testcase name="toString1()" classname="cs1302.adt.StringListTests$OneItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[method:toString1()]
+display-name: toString()
+]]></system-out>
+</testcase>
+<testcase name="makeString1()" classname="cs1302.adt.StringListTests$OneItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[method:makeString1()]
+display-name: makeString("#", "@", "%")
+]]></system-out>
+</testcase>
+<testcase name="prepend1()" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[method:prepend1()]
+display-name: prepend("hello world")
+]]></system-out>
+</testcase>
+<testcase name="prepend2()" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[method:prepend2()]
+display-name: prepend(null) throws NullPointerException
+]]></system-out>
+</testcase>
+<testcase name="prepend3()" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[method:prepend3()]
+display-name: prepend("") throws IllegalArgumentException
+]]></system-out>
+</testcase>
+<testcase name="append1()" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[method:append1()]
+display-name: append("hello world")
+]]></system-out>
+</testcase>
+<testcase name="append2()" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[method:append2()]
+display-name: append(null) throws NullPointerException
+]]></system-out>
+</testcase>
+<testcase name="append3()" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[method:append3()]
+display-name: append("") throws IllegalArgumentException
+]]></system-out>
+</testcase>
+<testcase name="clear1()" classname="cs1302.adt.StringListTests$OneItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[method:clear1()]
+display-name: clear()
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[1]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:get1(int)]/[test-template-invocation:#1]
+display-name: [1] -1
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[2]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:get1(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="get2(int)[1]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:get2(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[1]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:add1(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add1(int)[2]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:add1(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[1]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:add2(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add2(int)[2]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:add2(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[1]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:add3(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="add3(int)[2]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:add3(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="remove1(int)[1]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:remove1(int)]/[test-template-invocation:#1]
+display-name: [1] 0
+]]></system-out>
+</testcase>
+<testcase name="remove2(int)[1]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:remove2(int)]/[test-template-invocation:#1]
+display-name: [1] 1
+]]></system-out>
+</testcase>
+<testcase name="add4(int)[1]" classname="cs1302.adt.StringListTests$OneItemListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:OneItemListTests]/[test-template:add4(int)]/[test-template-invocation:#1]
+display-name: [1] 2
+]]></system-out>
+</testcase>
+<testcase name="size1()" classname="cs1302.adt.StringListTests$NewListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:size1()]
+display-name: size() == 0
+]]></system-out>
+</testcase>
+<testcase name="isEmpty1()" classname="cs1302.adt.StringListTests$NewListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:isEmpty1()]
+display-name: isEmpty() == true
+]]></system-out>
+</testcase>
+<testcase name="toString1()" classname="cs1302.adt.StringListTests$NewListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:toString1()]
+display-name: toString()
+]]></system-out>
+</testcase>
+<testcase name="makeString1()" classname="cs1302.adt.StringListTests$NewListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:makeString1()]
+display-name: makeString("#", "@", "%")
+]]></system-out>
+</testcase>
+<testcase name="add1()" classname="cs1302.adt.StringListTests$NewListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:add1()]
+display-name: add(0, "hello world")
+]]></system-out>
+</testcase>
+<testcase name="add2()" classname="cs1302.adt.StringListTests$NewListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:add2()]
+display-name: add(0, null) throws NullPointerException
+]]></system-out>
+</testcase>
+<testcase name="add3()" classname="cs1302.adt.StringListTests$NewListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:add3()]
+display-name: add(0, "") throws IllegalArgumentException
+]]></system-out>
+</testcase>
+<testcase name="prepend1()" classname="cs1302.adt.StringListTests$NewListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:prepend1()]
+display-name: prepend("hello world")
+]]></system-out>
+</testcase>
+<testcase name="prepend2()" classname="cs1302.adt.StringListTests$NewListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:prepend2()]
+display-name: prepend(null) throws NullPointerException
+]]></system-out>
+</testcase>
+<testcase name="prepend3()" classname="cs1302.adt.StringListTests$NewListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:prepend3()]
+display-name: prepend("") throws IllegalArgumentException
+]]></system-out>
+</testcase>
+<testcase name="append1()" classname="cs1302.adt.StringListTests$NewListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:append1()]
+display-name: append(null) throws NullPointerException
+]]></system-out>
+</testcase>
+<testcase name="append2()" classname="cs1302.adt.StringListTests$NewListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:append2()]
+display-name: append("") throws IllegalArgumentException
+]]></system-out>
+</testcase>
+<testcase name="clear1()" classname="cs1302.adt.StringListTests$NewListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[method:clear1()]
+display-name: clear()
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[1]" classname="cs1302.adt.StringListTests$NewListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[test-template:get1(int)]/[test-template-invocation:#1]
+display-name: [1] -1
+]]></system-out>
+</testcase>
+<testcase name="get1(int)[2]" classname="cs1302.adt.StringListTests$NewListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[test-template:get1(int)]/[test-template-invocation:#2]
+display-name: [2] 0
+]]></system-out>
+</testcase>
+<testcase name="add4(int)[1]" classname="cs1302.adt.StringListTests$NewListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[test-template:add4(int)]/[test-template-invocation:#1]
+display-name: [1] -1
+]]></system-out>
+</testcase>
+<testcase name="add4(int)[2]" classname="cs1302.adt.StringListTests$NewListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[test-template:add4(int)]/[test-template-invocation:#2]
+display-name: [2] 1
+]]></system-out>
+</testcase>
+<testcase name="remove2(int)[1]" classname="cs1302.adt.StringListTests$NewListTests" time="0.001">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[test-template:remove2(int)]/[test-template-invocation:#1]
+display-name: [1] -1
+]]></system-out>
+</testcase>
+<testcase name="remove2(int)[2]" classname="cs1302.adt.StringListTests$NewListTests" time="0">
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]/[class:cs1302.adt.LinkedStringListTests]/[nested-class:NewListTests]/[test-template:remove2(int)]/[test-template-invocation:#2]
+display-name: [2] 0
+]]></system-out>
+</testcase>
+<system-out><![CDATA[
+unique-id: [engine:junit-jupiter]
+display-name: JUnit Jupiter
+]]></system-out>
+</testsuite>
